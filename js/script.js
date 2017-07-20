@@ -53,3 +53,5 @@ function valid(form) {
     window.location = "http://bulma.io/";
   }
 }
+
+// anchor
