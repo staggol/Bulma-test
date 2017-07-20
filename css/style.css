@@ -20,3 +20,29 @@ h3 {
 	font-size: 30px !important;
 	color: #20B2AA;
 }
+
+@media (max-width: 1024px) {
+
+	.navbar-burger {
+		margin-top: -50px;
+	}
+
+	.block1 {
+		margin-top: -100px;
+	}
+
+	h1 {
+		font-size: 20px !important;
+		margin-top: 50px !important;
+	}
+
+	p {
+		font-size: 10px !important;
+		margin-top: 50px !important;
+	}
+
+	main {
+		margin-top: -100px;
+	}
+
+}

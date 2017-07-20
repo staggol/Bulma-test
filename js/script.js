@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-// GET BULMA
+// GET BULMA button
 function buttonClick(onclick) {
   window.location = "http://bulma.io/";
 }
