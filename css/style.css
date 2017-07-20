@@ -21,6 +21,12 @@ h3 {
 	color: #20B2AA;
 }
 
+footer {
+	border-top: 2px solid gray;
+	margin-top: 20px;
+	padding: 15px 0;
+}
+
 @media (max-width: 1024px) {
 
 	.navbar-burger {

@@ -29,3 +29,27 @@ document.addEventListener('DOMContentLoaded', function () {
 function buttonClick(onclick) {
   window.location = "http://bulma.io/";
 }
+
+// FORM SIGN
+function valid(form) {
+  var fail = false;
+  var name = form.name.value;
+  var email = form.email.value;
+  var pass = form.pass.value;
+  var rePass = form.rePass.value;
+  if (name == "" || name == " ") {
+    fail = "Name!";
+  }
+  else if (pass == "") {
+    fail = "Password!";
+  }
+  else if (pass != rePass) {
+    fail = "Lier!";
+  }
+  if (fail) {
+    alert(fail);
+  }
+  else {
+    window.location = "http://bulma.io/";
+  }
+}
